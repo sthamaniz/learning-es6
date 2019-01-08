@@ -20,4 +20,9 @@ list of learning es6
    #using template literals instead of quotes to make the multiple line of code inside the template literals work which does not work inside the quotes
 
 4. spread operators
-   #
+   #used to spread and join the array
+   #also used to pass the array in the function 
+   
+5. class and inheritance of the class
+  #used to define a class
+  #used to inherit the properties of the superclass and its contents to child class
