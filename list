@@ -1,2 +1,23 @@
 list of learning es6
 
+1. new variables let and const 
+   #let - cannot be redeclared using let keyword but can be redeclared without using let keyword
+   #const - cannot be redeclared (neither using nor not using the keyword)
+   
+2. arrow function 
+   #using fat arrow as the function without using the keyword function
+    
+   #multiline function with return
+   let testfunction = (can pass the variable to the function) => {
+     this is the body of the function;
+     return the value of the function;
+   };
+    
+   #single line function without return
+   let testfunction = (can pass the variable to the function) => return the value without the return keyword;
+    
+3. template literals
+   #using template literals instead of quotes to make the multiple line of code inside the template literals work which does not work inside the quotes
+
+4. spread operators
+   #
