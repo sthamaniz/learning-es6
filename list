@@ -24,5 +24,18 @@ list of learning es6
    #also used to pass the array in the function 
    
 5. class and inheritance of the class
-  #used to define a class
-  #used to inherit the properties of the superclass and its contents to child class
+   #used to define a class
+   #used to inherit the properties of the superclass and its contents to child class
+  
+6. generators
+   # used to pause the function with the yield keyword and run the another line after yield keyword with the next keyword.
+   function* sampleGenerator(){
+      do this;
+      yield that;
+      do another this;
+      yield another that;
+   }
+   
+   #run the function till the yield keyword
+   let sample = sampleGenerator();
+   sample.next();
