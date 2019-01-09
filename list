@@ -39,3 +39,34 @@ list of learning es6
    #run the function till the yield keyword
    let sample = sampleGenerator();
    sample.next();
+ 
+7. for function
+   #used to loop through the array result
+   newArray = [];
+   for (arrays of array){
+      console.log(array);
+      #push into new array
+      newArray.push(array);
+   }
+   
+   #forEach can also be used
+   arrays.forEach((array) => {
+      console.log(array);
+      #for assiciated array
+      console.log(array.name);
+   });
+   
+ 
+8. filter function
+   #used to filter the arrays according to the need
+   arrays = [1,2,3,4,5,6,7];
+   let filteredArray = arrays.filter(array => array > 5);
+   console.log(filterArrays)
+    
+   #result 
+   filterArray = [6,7];
+    
+ 9. map function 
+    #used to loop through each element of the array and perfome some action
+    let arrays = array.map(arr => arr * 2);
+    #multiplies each element of the array by 2
